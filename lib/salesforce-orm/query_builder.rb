@@ -8,9 +8,11 @@ module SalesforceOrm
     self.table_name = DUMMY_TABLE_NAME
   
     establish_connection(
-      adapter: :sqlite3,
-      database: ':memory:'
+      adapter: :postgresql,
+      database: purple_bottle_development,
+      username: postgres,
+      port: 5432,
     )
-    
+
   end
 end
