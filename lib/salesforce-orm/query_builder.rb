@@ -8,7 +8,7 @@ module SalesforceOrm
     self.table_name = DUMMY_TABLE_NAME
 
     establish_connection(
-      adapter: :postgresql,
+      adapter: :sqlite3,
       schema: (File.join SalesforceOrm.root, 'support', 'schema.rb')
     )
   end
