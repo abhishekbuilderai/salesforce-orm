@@ -3,7 +3,6 @@ PATH
   specs:
     salesforce-orm (1.3.0)
       activerecord
-      activerecord-nulldb-adapter
       restforce
 
 GEM
@@ -15,7 +14,6 @@ GEM
       activemodel (= 5.1.4)
       activesupport (= 5.1.4)
       arel (~> 8.0)
-    activerecord-nulldb-adapter (0.3.7)
       activerecord (>= 2.0.0)
     activesupport (5.1.4)
       concurrent-ruby (~> 1.0, >= 1.0.2)

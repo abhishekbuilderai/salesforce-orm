@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_dependency 'activerecord'
-  s.add_dependency 'activerecord-nulldb-adapter'
+  # s.add_dependency 'activerecord-nulldb-adapter'
   s.add_dependency 'restforce'
 
   s.add_development_dependency 'byebug'
