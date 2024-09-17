@@ -11,7 +11,7 @@ module SalesforceOrm
       adapter: :postgresql,
       database: purple_bottle_development,
       username: postgres,
-      port: 5432,
+      port: 5432
     )
 
   end
