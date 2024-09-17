@@ -3,9 +3,9 @@ require 'active_record'
 module SalesforceOrm
   class QueryBuilder < ActiveRecord::Base
 
-    DUMMY_TABLE_NAME = 'table_name'
+    # DUMMY_TABLE_NAME = 'table_name'
 
-    self.table_name = DUMMY_TABLE_NAME
+    # self.table_name = DUMMY_TABLE_NAME
 
     # Correctly specify connection details
     establish_connection(
