@@ -6,13 +6,13 @@ module SalesforceOrm
     DUMMY_TABLE_NAME = 'table_name'
 
     self.table_name = DUMMY_TABLE_NAME
-  
-    establish_connection(
-      adapter: :postgresql,
-      database: purple_bottle_development,
-      username: postgres,
-      port: 5432
-    )
 
+    # Correctly specify connection details
+    establish_connection(
+      adapter:  'postgresql',
+      database: 'purple_bottle_development', # Use quotes for string values
+      username: 'postgres',                 # Use quotes for string values
+      port:     5432
+    )
   end
 end
