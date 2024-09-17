@@ -6,5 +6,11 @@ module SalesforceOrm
     DUMMY_TABLE_NAME = 'table_name'
 
     self.table_name = DUMMY_TABLE_NAME
+  
+    establish_connection(
+      adapter: :sqlite3,
+      database: ':memory:'
+    )
+    
   end
 end
